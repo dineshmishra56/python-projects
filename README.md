@@ -9,19 +9,24 @@ Email Validation:
 
 Uses the email_validator package to validate email addresses.
 Checks the domain of the email address for a valid MX (Mail Exchange) record using dns.resolver.
+
 Reading Email List:
 
 Reads email addresses from a file named email_list.txt.
+
 Categorizing Emails:
 
 Validates each email address and categorizes them into valid_emails and invalid_emails.
 Writes the categorized emails to separate files: valid_emails.txt and invalid_emails.txt.
+
 Email Sending:
 
 Reads an email template from email_template.html.
 Uses the SMTP protocol to send emails through a Gmail account.
 Records the sent and failed emails into sent_emails.txt and failed_emails.txt.
+
 Usage Instructions
+
 Email Validation:
 
 Ensure you have the necessary packages installed: smtplib, email-validator, and dnspython.
