@@ -1,4 +1,4 @@
-# python-projects
+# EmailVeriSend - Send unlimited emails - Python Project
 Project From code with Dinesh Mishra
 
 Email Validation and Sending Script
